@@ -18,18 +18,20 @@
         local_tz=$(date +%Z)
 
         local_matched=false
+        local_matched_tz=""
         for tz in "${display_timezones[@]}"; do
             tz_time=$(TZ=$tz date '+%Y-%m-%d %H:%M:%S')
             if [[ "$tz_time" == "$local_time" ]]; then
                 # Use printf function for aligned output
                 printf "%s Time in %-30s: %s\n" "${major_timezones[$tz]}" "$tz(Local)" "$tz_time"
                 local_matched=true
+                local_matched_tz=$tz
                 break
             fi
         done
 
         for tz in "${display_timezones[@]}"; do
-            if [[ "$tz" != "$local_tz" ]]; then
+            if [[ "$tz" != "$local_matched_tz" ]]; then
                 tz_time=$(TZ=$tz date '+%Y-%m-%d %H:%M:%S')
                 # Use printf function for aligned output
                 printf "%s Time in %-30s: %s\n" "${major_timezones[$tz]}" "$tz" "$tz_time"
@@ -38,7 +40,7 @@
 
         if [[ "$local_matched" == "false" ]]; then
             # Add a `🌈` symbol before the output text
-            echo "🌈Time: $local_time"
+            echo "🌈Local Time: $local_time"
         fi
     }
 
