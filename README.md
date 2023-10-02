@@ -10,7 +10,7 @@ https://github.com/zhaoolee/WelcomeMrStark
 
 ![WelcomeMrStack-orign](./WelcomeMrStark/origin.jpg)
 
-![](./WelcomeMrStark/MrStark-001.gif)
+![](./WelcomeMrStark/MrStark-002.gif)
 
 这是一个根据本机系统时间，可以自动向登录人员礼貌问好，并支持自定义配置显示世界各地时间的脚本
 
