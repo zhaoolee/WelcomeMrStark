@@ -1,6 +1,6 @@
 # WelcomeMrStack
 
-![./WelcomeMrStark/WELCOMEMRSTARK.gif]
+![](./WelcomeMrStark/WELCOMEMRSTARK.gif)
 
 本项目灵感来自自钢铁侠2
 
