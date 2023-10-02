@@ -1,6 +1,13 @@
 # WelcomeMrStack
 
+
+
+[](./WelcomeMrStark/MrStark-001.gif)
+
 这是一个根据系统时间，可以自动向登录人员礼貌问好，并自动显示世界时的脚本
+
+
+
 
 ## How To Use
 
@@ -17,7 +24,7 @@ brew install figlet
 ```
 
 
-启用脚本
+使用脚本
 
 ```
 git clone --depth=1 https://github.com/zhaoolee/WelcomeMrStark  ~/.WelcomeMrStark
