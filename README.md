@@ -1,4 +1,4 @@
-# WelcomeMrStack
+# WelcomeMrStark
 
 ![](./WelcomeMrStark/WELCOMEMRSTARK.gif)
 
@@ -8,7 +8,7 @@
 
 https://github.com/zhaoolee/WelcomeMrStark
 
-![WelcomeMrStack-orign](./WelcomeMrStark/origin.jpg)
+![](./WelcomeMrStark/origin.jpg)
 
 ![](./WelcomeMrStark/MrStark-002.gif)
 
